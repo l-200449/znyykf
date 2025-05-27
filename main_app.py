@@ -40,7 +40,8 @@ if not st.session_state.logged_in:
 # 登录成功后显示主界面
 st.title(f"🎉 欢迎，{st.session_state.username}！")
 
-st.sidebar.title("📚 功能导航")
+# ✅ 这里是你关心的部分：修改左侧标题
+st.sidebar.title("🤖 招聘智能推荐系统")
 st.sidebar.page_link("pages/1_实验1_招聘数据可视化.py", label="实验1：数据可视化", icon="📊")
 st.sidebar.page_link("pages/2_实验2_LLM函数调用.py", label="实验2：LLM函数调用", icon="🤖")
 st.sidebar.page_link("pages/3_实验3_技术关联性挖掘.py", label="实验3：技能关联推荐", icon="🔍")
