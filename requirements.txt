@@ -4,3 +4,4 @@ numpy
 streamlit-echarts
 plotly
 zhipuai
+matplotlib
